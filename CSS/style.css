@@ -70,8 +70,13 @@ p {
     color: #333;
 }
 .bg-primary {
-    background: #333;
-    color: #f7c08a;
+    background: #f7c08a;
+    color: #333;
+}
+
+/* Clearing the float for the footer's padding to be able to push it down  */
+.clr{
+    clear: both;
 }
 
 #navbar {
@@ -157,4 +162,26 @@ p {
 /* padding underneath content to push the 'Read More' bottom down */
 #home-info .info-content p {
     padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+    float: left;
+    width: 33.3%;
+    /* since we have a "box-sizing: boarder-box" in the global (*) settings at top, 
+    then the padding is not going to be added to the width*/
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
 }
