@@ -88,6 +88,7 @@ p {
 .py-2 {padding: 20px 0;}
 .py-3 {padding: 30px 0;}
 
+/* Navbar */
 #navbar {
     background: #333;
     color: #fff;
@@ -126,8 +127,7 @@ p {
 
 /* Showcase */
 #showcase {
-    background: url('../img/showcase.jpg') no-repeat
-    center center/cover;
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
     height: 600px;
 }
 
@@ -232,7 +232,7 @@ p {
 #testimonials .testimonial img {
     width: 100px;
     float: left;
-    margin-left: 20px;
+    margin-right: 20px;
     border-radius: 50%;
     
 }
